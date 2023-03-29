@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import Category, Promocode, Producer, Discount
 
-# Register your models here.
+
+admin.site.register(Category)
+admin.site.register(Promocode)
+admin.site.register(Producer)
+admin.site.register(Discount)
